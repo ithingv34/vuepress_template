@@ -1,7 +1,3 @@
----
-editLink: false
----
-
 # VuePress Blog Boilerplate
 
 Vuepress 기술블로그 기본 템플릿입니다. 🙌 
