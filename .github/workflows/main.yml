@@ -27,4 +27,4 @@ jobs:
           git init
           git add -A
           git commit -m "vuepress page deployed $GITHUB_SHA"
-          git push -f https://${ACCESS_TOKEN}@github.com/${GITHUB_REPOSITORY}.git main:gh-pages
+          git push -f https://${ACCESS_TOKEN}@github.com/${GITHUB_REPOSITORY}.git master:gh-pages
