@@ -7,7 +7,7 @@ module.exports = {
   plugins: ['@vuepress/last-updated'],
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' }
+      { text: 'Home', link: '/devnote' }
     ],
     sidebar: [
       ['/devnote', 'Devnote'],
