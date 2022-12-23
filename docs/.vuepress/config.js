@@ -2,15 +2,15 @@ const { getFilesOf } = require('./util.js');
 
 module.exports = {
   base: '/vuepress_template/',
-  assetsPublicPath: '/',
+  assetsPublicPath: '/devnote/',
   title: "Dev note",
   plugins: ['@vuepress/last-updated'],
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/devnote' }
+      { text: 'Home', link: '/' }
     ],
     sidebar: [
-      ['/devnote', 'Devnote'],
+      ['/', 'Devnote'],
       {
         title: 'Section1',
         path: '/src/Section1/',
