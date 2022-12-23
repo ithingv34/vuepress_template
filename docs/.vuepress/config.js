@@ -1,7 +1,7 @@
 const { getFilesOf } = require('./util.js');
 
 module.exports = {
-  base: '/vuepress_template/',
+  base: '/devnote/',
   assetsPublicPath: '/',
   title: "Dev note",
   plugins: ['@vuepress/last-updated'],
@@ -19,9 +19,10 @@ module.exports = {
       {
         title: 'Section2',
         path: '/src/Section2/',
-        children: getFilesOf('src/Section2'),
+        children: getFilesOf('docs/Section2'),
       }
     ],
+    base: '/vuepress_template/',
     repo: 'ithingv34/vuepress_template',
     repoLabel: 'GitHub',
     editLinks: true,
