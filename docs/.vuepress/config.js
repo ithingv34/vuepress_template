@@ -1,7 +1,7 @@
 const { getFilesOf } = require('./util.js');
 
 module.exports = {
-  base: '/vuepress_template/',
+  base: '/devnote/',
   assetsPublicPath: '/',
   title: "Dev note",
   plugins: ['@vuepress/last-updated'],
