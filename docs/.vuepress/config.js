@@ -10,7 +10,7 @@ module.exports = {
       { text: 'Home', link: '/' }
     ],
     sidebar: [
-      ['/', 'Devnote'],
+      ['/devnote', 'Devnote'],
       {
         title: 'Section1',
         path: '/src/Section1/',
