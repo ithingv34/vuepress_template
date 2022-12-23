@@ -4,8 +4,8 @@
   "description": "vuepress 기본 템플릿입니다.",
   "main": "index.js",
   "scripts": {
-    "build": "vuepress build",
-    "dev": "vuepress dev"
+    "build": "vuepress build src",
+    "dev": "vuepress dev src"
   },
   "repository": {
     "type": "git",

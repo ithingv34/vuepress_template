@@ -13,13 +13,13 @@ module.exports = {
       ['/', 'Devnote'],
       {
         title: 'Section1',
-        path: '/docs/Section1/',
-        children: getFilesOf('docs/Section1'),
+        path: '/src/Section1/',
+        children: getFilesOf('src/Section1'),
       },
       {
         title: 'Section2',
-        path: '/docs/Section2/',
-        children: getFilesOf('docs/Section2'),
+        path: '/src/Section2/',
+        children: getFilesOf('src/Section2'),
       }
     ],
     repo: 'ithingv34/vuepress_template',
